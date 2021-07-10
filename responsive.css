@@ -1,0 +1,127 @@
+@media all and (max-width:1400px) {
+
+}
+@media all and (max-width:1200px) {
+
+}
+/* 991 */
+@media all and (max-width:991px) {
+    .main-navbar .navbar .navbar-nav .nav-item:last-child {
+        margin-right: 10px;
+    }
+    .main-navbar .navbar .navbar-nav .nav-item {
+        margin-left: 0px !important;
+        margin-right: 10px !important;
+    }
+      .nav-item a {
+        font-size: 16px !important;
+    }
+    .services {
+        height: 250px;
+    }
+    .choose-content {
+        margin-bottom: 20px;
+    }
+    .image img {
+        width: 100%;
+    }
+}
+/* 767 */
+@media all and (max-width:767px) {
+    .top-header .top-left {
+        text-align: center;
+    }
+    .top-header .top-right {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
+        top: 15px;
+        left: 104px;
+    }
+    .slidercst {
+        width: 526px;
+    }
+    .sliderSection:hover .custom-control-prev::before {
+        left: -5px;
+    }
+    .sliderSection:hover .custom-control-next::after {
+        right: -5px;
+    }
+    .pp100 {
+        padding: 50px 0;
+    }
+ 
+}
+/* 575 */
+@media all and (max-width:575px) {
+    .about2 {
+        right: -17px;
+    }
+    .uuu {
+        margin-bottom: 10px;
+    }
+
+}
+/* 500 */
+@media all and (max-width:500px) {
+    .slidercst {
+        width: 362px;
+    }
+    .sliderSection:hover .custom-control-prev::before {
+        left: 0px;
+    }
+    .sliderSection:hover .custom-control-next::after {
+        right: 0px;
+    }
+    .slidercst h1 {
+        font-size: 36px;
+    }
+    .choose-content h3 {
+        font-size: 30px;
+    }
+
+    .testimonial {
+        height: 54vh;
+    }
+
+}
+/* 450 */
+@media all and (max-width:450px) {
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+    .all-section h2 {
+        font-size: 1.7rem;
+    }
+    .about-r ul li {
+        font-size: 1.0rem;
+    }
+}
+/* 400 */
+@media all and (max-width:400px) {
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+    .slidercst {
+        width: 333px;
+    }
+    .slidercst h1 {
+        font-size: 26px;
+    }
+    .all-section h2 {
+        font-size: 1.3rem;
+    }
+    .about-r ul li i {
+        font-size: 16px;
+    }
+    .about-r ul li span {
+        margin-right: 2px;
+    }
+    .about-r ul li {
+        font-size: 14px;
+    }
+    .services {
+        height: 278px;
+    }
+}
